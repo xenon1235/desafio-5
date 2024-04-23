@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "xenon";
+    src: url("fontes/idroid.otf") format(truetype);
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #59f59fe5;
+
+}
+a.externo::after {
+    content: '\00A0\1F517';
+
+}
+header > .fundo {
+     margin: 0px;
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.438);
+    
+    
+        
+ }
+
+header > h1 {
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
+    margin-top: 0px;
+    
+}
+header > p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.616);
+    margin-bottom: 30px;
+}
+nav {
+    padding: 10px;
+}
+
+nav >a {
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+   color: white;
+   transition-duration: 0.5s;
+}
+nav >a:hover {
+    background-color: #2cd676af;
+}
+main {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 10px; 
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.562);
+    border-radius: 10px;
+    
+
+}
+article > p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+article > h1 {
+    font-family: "xenon";
+    color: green;
+}
+article > h2 {
+    font-family: "xenon";
+    color: green;
+    background-image: linear-gradient(to right, #8ff8c2a9, transparent);
+    text-indent: 8px;
+    font-size: 1.3em;
+    
+}
+
+article > p > a {
+    text-decoration: none;
+    color: #025940;
+    font-weight: bolder;
+    background-color: #24e47a;
+    padding: 2px 5px;
+    
+}
+article > p > a:hover {
+text-decoration: underline;
+color: #06a84f;
+
+}
+
+main img {
+    width: 100%;
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video {
+    background-color: #01632d;
+    margin: 0px -20px 30px -20px;
+    padding: 20px; 
+    padding-bottom: 56.5%;
+    position: relative;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.473);
+    
+
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+main  strong {
+    color: #063d1e;
+    font-weight: bold;
+ 
+}
+footer  {
+    background-color: #025940;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px; 
+    
+}
+#rodape {
+    margin-bottom: 0px;
+    
+}
+footer a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #06a84f;
+
+}
+
+aside a { 
+    text-decoration: none;
+    color: #04412f;
+    font-weight: bolder;
+    background-color: #24e47a;
+    padding: 2px 5px;
+
+}
+aside a:hover {
+    text-decoration: underline;
+color: #06a84f;
+    
+}
+
+aside {
+    background-color: #49e991e3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.438);
+    
+}
+aside ul {
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+aside > h3 {
+    background-color: #01632d;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
